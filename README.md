@@ -9,7 +9,7 @@ Describe why I did this project and what I want to accomplish
 
 ## Method and Approach
 #### Monitoring sites and data description
-Describe the monitoring sites. What was used to collect samples and data.
+Describe the monitoring sites. What was used to collect samples and data. <br>
 Describe what the samples were analyzed for (nitrate, DRP, TP, TSS, etc.)
 Describe how the data was analyzed (normal transformation, t-test using what Python package, etc.)
 
