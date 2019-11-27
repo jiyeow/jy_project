@@ -161,7 +161,7 @@ Table 4: Correlation of nutrient/sediment concentration (separated by base and e
 
 Only consistent correlations were found between Flow and DRP, TP, and TSS concentrations for event samples.
 
-## Summary finding
+## Summary of findings
 Key note:
 Catchment 11 has smaller aeral extent of BMPs implementation; catchment 12 has larger aereal extent of BMPs implementation.
 
