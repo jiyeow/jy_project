@@ -7,6 +7,12 @@ As the leading state of corn, soybean, and hog production in the United States, 
 Fig 1: Aerial image of Black Hawk Lake (obtained from blackhawklake.org)
 </kbd> <br>
 
+<img src="https://github.com/jiyeow/jy_project/blob/master/BHL_aerial_view.jpg" height="400"> <br>
+Fig 1: Aerial image of Black Hawk Lake (obtained from blackhawklake.org)
+<br> 
+
+![test](https://github.com/jiyeow/jy_project/blob/master/BHL_aerial_view.jpg "test")
+
 Iowa Nutrient Reduction Strategy document has highlighted that a single best management practice (BMP) may not be sufficient to achieve the N and P 45% load reduction goal. Instead, several BMPs are needed to be combined in a single agricultural field or catchment. This project was designed to compare the stacked benefits of BMPs at two adjacent agricultural catchments located in Black Hawk Lake watershed, Iowa.
 
 
@@ -30,6 +36,7 @@ Two adjacent catchments, namely catchment 11 and 12, were monitored between 2015
 <img src="https://github.com/jiyeow/jy_project/blob/master/BHL_watershed_map.png" height="400"> <br>
 Fig 2: Black Hawk Lake watershed. The lake is located on the north end of the watershed; the monitored catchments (cathcment 11 and 12) are highlighted in green. Side note: "catchment" is labelled as "sub" in this image.
 </kbd> 
+
 
 #### Sample and data analysis  
 The water samples were categorized into base flow samples and event (storm) flow samples. They were analyzed for NH3 (ammonia), NOx (nitrate+nitrite), TN (total nitrogen), DRP (dissolved reactive phosphorus), TP (total phosphorus), and TSS (total suspended solid) concentrations. Nutrient and sediment concentrations between two catchments were tested for significant differences. Normally distributed dataset was tested using t-test; non-normal dataset was tested using Wilcoxon Rank Sum test. In addition, correlations between nutrient/sediment concentration was tested for correlation with auxiliary parameter (flow, precip, temp). Normally distributed dataset was tested using pearsonr correlation; non-normal dataset was tested using spearmanr correlation test. Nutrient and sediment load at each catchment outlet was calculated by multiplying nutrient concentration and flow. Nutrient and sediment load between two catchments were also compared. <br>
@@ -69,9 +76,12 @@ Table 2: Median of analyte concentrations of base flow and event flow samples (2
 
 Highlights:
 1) For baseflow samples
-- DRP concentrations were significantly higher at catchment 12 than at catchment 11.
+- DRP concentrations were significantly lower at catchment 11 than at catchment 12.
 - TP concentrations were not significantly different at both catchments.
 - TSS, NOx, and TN concentrations were significantly higher at catchment 11 than at catchment 12.
+2) For event flow samples
+- DRP concentrations were not significantly different at both catchments.
+- TP, TSS, NOx, and TN concentrations were significantly higher at catchment 11 than at catchment 12.
  
  
 Insert load comparison here (consider using a figure). <br>
