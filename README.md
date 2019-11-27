@@ -23,20 +23,23 @@ c) How does environmental factor (flow, precipitation, and temperature) affect a
 Additional data can be imported and additional analyses may be added in future development, as needed.
 
 ## Method and Approach
-#### Monitoring sites and data description
-Describe the monitoring sites. What was used to collect samples and data. <br>
+#### Monitoring sites and sample collection
+Two adjacent catchments, namely catchment 11 and 12, were monitored between 2015 and 2018. Catchment 11 has lower areal extend of BMPs implementation than catchment 12. ISCO automated water samplers were installed to collect continuous flow measurement data and to collected flow-weighted samples at each catchment outlet. Catchment 11 only has one surface outlet, and the monitoring station was named as Surface 11 (S11). Catchment 12 has one surface outlet and one tile outlet, and were named as Surface 12 (S12) and Tile 12 (T12), respectively. The combined load from S12 and T12 represented the total loading from cgitatchment 12. <br>
 
 <kbd>
 <img src="https://github.com/jiyeow/jy_project/blob/master/BHL_watershed_map.png" height="400"> <br>
-Fig 2: Black Hawk Lake watershed. The lake is located on the north end of the watershed; the monitored catchments (sub11 and sub12) are highlighted in green.
+Fig 2: Black Hawk Lake watershed. The lake is located on the north end of the watershed; the monitored catchments (cathcment 11 and 12) are highlighted in green. Side note: "catchment" is labelled as "sub" in this image.
 </kbd> 
 
-  
-Describe what the samples were analyzed for (nitrate, DRP, TP, TSS, etc.) <br>
-Describe how the data was analyzed (normal transformation, t-test using what Python package, etc.) <br>
+#### Sample and data analysis  
+The water samples were categorized into base flow samples and event (storm) flow samples. They were analyzed for NH3 (ammonia), NOx (nitrate+nitrite), TN (total nitrogen), DRP (dissolved reactive phosphorus), TP (total phosphorus), TSS (total suspended solid), and VSS (volatile suspended solid) concentrations. Nutrient and sediment concentrations between two catchments were tested for significant differences. Normally distributed dataset was tested using t-test; non-normal dataset was tested using Wilcoxon Rank Sum test. In addition, correlations between nutrient/sediment concentration was tested for correlation with auxiliary parameter (flow, precip, temp). Normally distributed dataset was tested using pearsonr correlation; non-normal dataset was tested using spearmanr correlation test. Nutrient and sediment load at each catchment outlet was calculated by multiplying nutrient concentration and flow. Nutrient and sediment load between two catchments were also compared. <br>
 
 #### Project workflow
-Insert the jpg file of project workflow here.
+This project workflow describes the analysis process used in the [Python Notebook](https://github.com/jiyeow/jy_project/blob/master/ABE516x_finalproject.ipynb)
+<kbd>
+<img src="https://github.com/jiyeow/jy_project/blob/master/ABE516x_project_workflow.png" height="500"> <br>
+Fig 3: Project workflow
+</kbd>
 
 
 
