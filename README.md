@@ -32,7 +32,7 @@ Fig 2: Black Hawk Lake watershed. The lake is located on the north end of the wa
 </kbd> 
 
 #### Sample and data analysis  
-The water samples were categorized into base flow samples and event (storm) flow samples. They were analyzed for NH3 (ammonia), NOx (nitrate+nitrite), TN (total nitrogen), DRP (dissolved reactive phosphorus), TP (total phosphorus), TSS (total suspended solid), and VSS (volatile suspended solid) concentrations. Nutrient and sediment concentrations between two catchments were tested for significant differences. Normally distributed dataset was tested using t-test; non-normal dataset was tested using Wilcoxon Rank Sum test. In addition, correlations between nutrient/sediment concentration was tested for correlation with auxiliary parameter (flow, precip, temp). Normally distributed dataset was tested using pearsonr correlation; non-normal dataset was tested using spearmanr correlation test. Nutrient and sediment load at each catchment outlet was calculated by multiplying nutrient concentration and flow. Nutrient and sediment load between two catchments were also compared. <br>
+The water samples were categorized into base flow samples and event (storm) flow samples. They were analyzed for NH3 (ammonia), NOx (nitrate+nitrite), TN (total nitrogen), DRP (dissolved reactive phosphorus), TP (total phosphorus), and TSS (total suspended solid) concentrations. Nutrient and sediment concentrations between two catchments were tested for significant differences. Normally distributed dataset was tested using t-test; non-normal dataset was tested using Wilcoxon Rank Sum test. In addition, correlations between nutrient/sediment concentration was tested for correlation with auxiliary parameter (flow, precip, temp). Normally distributed dataset was tested using pearsonr correlation; non-normal dataset was tested using spearmanr correlation test. Nutrient and sediment load at each catchment outlet was calculated by multiplying nutrient concentration and flow. Nutrient and sediment load between two catchments were also compared. <br>
 
 #### Project workflow
 This project workflow describes the analysis process used in the [Python Notebook](https://github.com/jiyeow/jy_project/blob/master/ABE516x_finalproject.ipynb)
@@ -42,10 +42,38 @@ Fig 3: Project workflow
 </kbd>
 
 
-
 ## Results and Discussions
-#### Comparison of nutrient and sediment export between catchments
-Insert t-test/Wilcoxon test results here (consider using a table). <br>
+#### Comparison of nutrient and sediment concentrations and loads
+
+Table 1: Median of analyte concentrations of base flow and event flow samples (2015-2018) at each catchment. The alphabet annotation represent the significant difference between base flow and event flow samples.
+|Catchment  | Sample Type   | DRP    | TP     | TSS    | NOx    | TN     |
+| ---------:|--------------:| ------:| ------:| ------:| ------:| ------:|
+|11         | Base          | 0.003 b| 0.035 b| 15.8 b | 26.9 a | 29.0 a |
+|           | Event         | 0.014 a| 0.241 a| 148.0 a| 25.1 a | 28.7 a |
+|12         | Base          | 0.007 a| 0.034 b| 7.2 b  | 8.8 a  | 9.1 a  |
+|           | Event         | 0.016 a| 0.063 a| 18.6 a | 8.6 a  | 9.4 a  |
+
+Highlights:
+- The median concentrations of DRP, TP, and TSS were higher in the event samples than base flow at both catchments,
+- The differences were significant, except for DRP at catchment 12,
+- The median conecntrations of NOx and TN were similar in base and event flow samples at both catchments,
+- The minor differences were not significant. <br>
+
+Table 2: Median of analyte concentrations of base flow and event flow samples (2015-2018) at each catchment. The alphabet annotations represent the significant difference between catchments.
+|Sample Type | Catchment | DRP    | TP     | TSS    | NOx    | TN     |
+| ---------- |:---------:| ------:| ------:| ------:| ------:| ------:|
+|Base        | 11        | 0.003 b| 0.035 a| 15.8 a | 26.9 a | 29.0 a |
+|            | 12        | 0.007 a| 0.034 a| 7.2 b  | 8.8 b  | 9.1 b  |
+|Event       | 11        | 0.014 a| 0.241 a| 148.0 a| 25.1 a | 28.7 a |
+|            | 12        | 0.016 a| 0.063 b| 18.6 b | 8.6 b  | 9.4 b  |
+
+Highlights:
+1) For baseflow samples
+- DRP concentrations were significantly higher at catchment 12 than at catchment 11.
+- TP concentrations were not significantly different at both catchments.
+- TSS, NOx, and TN concentrations were significantly higher at catchment 11 than at catchment 12.
+ 
+ 
 Insert load comparison here (consider using a figure). <br>
 
 #### Drivers for nutrient and sediment export
