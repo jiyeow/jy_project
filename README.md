@@ -117,8 +117,8 @@ The tested environmental parameters were:
 - 1-day precipitation
 - 2-day precipitation
 - 3-day precipitation
-- temperature
-- flow rate
+- Temperature
+- Flow rate
 
 There were 10 PCA outputs, and all showed similar trend. Therefore, only one example output is included here. For individual outputs, refer to [Python Notebook](https://github.com/jiyeow/jy_project/blob/master/ABE516x_finalproject.ipynb) Part 3C.
 
@@ -129,7 +129,7 @@ Fig 9: Example PCA output. DRP data from catchment 12 was used in this analysis.
 
 To prevent having massive outputs (2 catchments x 2 sample types x5 analytes x 5 environmental parameters =100) and the difficulty to read through the ouputs, only the correlation that were tested significant (p<0.05) was printed. The ouputs are summarized in the Tables 3 and 4.
 
-Table 3: Correlation of nutrient/sediment concentration (separated by base and event flow samples) and environmental parameters at catchment 11. Non-significant correlation were left blank in the table. <br>
+Table 3: Correlation of nutrient/sediment concentration (separated by base and event flow samples) and environmental parameters at catchment 11. Non-significant correlations were left blank in the table. <br>
 
 |Sample Type | Analyte (mg/L) | Flow (cms)| 1-day ppt(mm)| 2-day ppt(mm)| 3-day ppt(mm)| Temp (ºC)|
 | ---------- |:--------------:| ---------:| ------------:| ------------:| ------------:| --------:|
@@ -144,7 +144,7 @@ Table 3: Correlation of nutrient/sediment concentration (separated by base and e
 |            | NOx            |           |              | -0.45        |              |          |
 |            | TN             |           |              |              |              |          |
 
-Table 4: Correlation of nutrient/sediment concentration (separated by base and event flow samples) and environmental parameters at catchment 12. Non-significant correlation were left blank in the table. <br>
+Table 4: Correlation of nutrient/sediment concentration (separated by base and event flow samples) and environmental parameters at catchment 12. Non-significant correlations were left blank in the table. <br>
 
 |Sample Type | Analyte (mg/L) | Flow (cms)| 1-day ppt(mm)| 2-day ppt(mm)| 3-day ppt(mm)| Temp (ºC)|
 | ---------- |:--------------:| ---------:| ------------:| ------------:| ------------:| --------:|
@@ -161,11 +161,24 @@ Table 4: Correlation of nutrient/sediment concentration (separated by base and e
 
 Only consistent correlations were found between Flow and DRP, TP, and TSS concentrations for event samples.
 
-## Supplemental information
-Codes for all data analysis can be found [here](https://github.com/jiyeow/jy_project/blob/master/ABE516x_finalproject.ipynb)
-Codes for weather data scrapping can be found [here](https://github.com/jiyeow/jy_project/blob/master/Weather_scrapping.ipynb)
+## Summary finding
+Key note:
+Catchment 11 has smaller aeral extent of BMPs implementation; catchment 12 has larger aereal extent of BMPs implementation.
 
-Box plots of nutrient/sediment concentrations.
+a) Is analyte concentration higher in one catchment than the other? <br>
+Yes, significant differences were found in some of the analytes at these two catchments. Higher TP, TSS, NOx, and TN concentrations were found in catchment 11. However, DRP concentration appeared to be higher in catchment 12. <br>
+
+b) Is analyte load higher in one catchment than the other? <br> 
+TP, TSS, NOx, and TN loads were consistenly higher in the catchment 11 during all monitoring years. Meanwhile, DRP loads were higher in catchment 11 during 2016 and 2017, but became lower than catchment 12 during 2018.
+
+c) How does environmental factor (flow, precipitation, and temperature) affect analyte concentration and load? <br>
+Only flow rates showed consistent and significant correlations with DRP, TP, and TSS concentrations of event samples.
+
+## Supplemental information
+Codes for all data analysis can be found [here](https://github.com/jiyeow/jy_project/blob/master/ABE516x_finalproject.ipynb) <br>
+Codes for weather data scrapping can be found [here](https://github.com/jiyeow/jy_project/blob/master/Weather_scrapping.ipynb) <br>
+
+Box plots of nutrient/sediment concentrations. <br>
 <kbd>
 <img src="https://github.com/jiyeow/jy_project/blob/master/Box%20plot%20ofDRP.png" height="250"> <br>
 Fig S1: DRP (mg/L) concentration at catchment 11 and 12 between 2015 and 2018.
@@ -190,8 +203,8 @@ Fig S4: NOx (mg/L) concentration at catchment 11 and 12 between 2015 and 2018.
 <img src="https://github.com/jiyeow/jy_project/blob/master/Box%20plot%20ofTN.png" height="250"> <br>
 Fig S5: TN (mg/L) concentration at catchment 11 and 12 between 2015 and 2018.
 </kbd>
-
-Pairplot to visualize correlations
+<br>
+Pairplot to visualize correlations <br>
 <kbd>
 <img src="https://github.com/jiyeow/jy_project/blob/master/corr_ppSub11.png" height="250"> <br>
 Fig S6: Pairplot at catchment 11.
