@@ -83,31 +83,31 @@ Highlights:
 <kbd>
 <img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20DRP_load.png" height="250"> <br>
 Fig 4: Annual DRP load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
-</kbd>
+</kbd> <br>
 DRP loads were higher at catchment 11 than at catchment 12 during 2016 and 2017, but was lower during 2018.
 
 <kbd>
 <img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20TP_load.png" height="250"> <br>
 Fig 5: Annual TP load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
-</kbd>
+</kbd> <br>
 TP loads were consistently higher at catchment 11 than at catchment 12 between 2016 and 2018.
 
 <kbd>
 <img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20TSS_load.png" height="250"> <br>
 Fig 6: Annual TSS load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
-</kbd>
+</kbd> <br>
 TSS loads were consistently higher at catchment 11 than at catchment 12 between 2016 and 2018.
 
 <kbd>
 <img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20NOx_load.png" height="250"> <br>
 Fig 7: Annual NOx load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
-</kbd>
+</kbd> <br>
 NOx loads were consistently higher at catchment 11 than at catchment 12 between 2016 and 2018.
 
 <kbd>
 <img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20TN_load.png" height="250"> <br>
 Fig 8: Annual TN load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
-</kbd>
+</kbd> <br>
 TN loads were consistently higher at catchment 11 than at catchment 12 between 2016 and 2018.
 
 #### Correlation between nutrient/sediment and environmental parameters
