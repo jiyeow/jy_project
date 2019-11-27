@@ -7,12 +7,6 @@ As the leading state of corn, soybean, and hog production in the United States, 
 Fig 1: Aerial image of Black Hawk Lake (obtained from blackhawklake.org)
 </kbd> <br>
 
-<img src="https://github.com/jiyeow/jy_project/blob/master/BHL_aerial_view.jpg" height="400"> <br>
-Fig 1: Aerial image of Black Hawk Lake (obtained from blackhawklake.org)
-<br> 
-
-![test](https://github.com/jiyeow/jy_project/blob/master/BHL_aerial_view.jpg "test")
-
 Iowa Nutrient Reduction Strategy document has highlighted that a single best management practice (BMP) may not be sufficient to achieve the N and P 45% load reduction goal. Instead, several BMPs are needed to be combined in a single agricultural field or catchment. This project was designed to compare the stacked benefits of BMPs at two adjacent agricultural catchments located in Black Hawk Lake watershed, Iowa.
 
 
@@ -30,7 +24,7 @@ Additional data can be imported and additional analyses may be added in future d
 
 ## Method and Approach
 #### Monitoring sites and sample collection
-Two adjacent catchments, namely catchment 11 and 12, were monitored between 2015 and 2018. Catchment 11 has lower areal extend of BMPs implementation than catchment 12. ISCO automated water samplers were installed to collect continuous flow measurement data and to collected flow-weighted samples at each catchment outlet. Catchment 11 only has one surface outlet, and the monitoring station was named as Surface 11 (S11). Catchment 12 has one surface outlet and one tile outlet, and were named as Surface 12 (S12) and Tile 12 (T12), respectively. The combined load from S12 and T12 represented the total loading from cgitatchment 12. <br>
+Two adjacent catchments, namely catchment 11 and 12, were monitored between 2015 and 2018. Catchment 11 has lower areal extend of BMPs implementation than catchment 12. ISCO automated water samplers were installed to collect continuous flow measurement data and to collected flow-weighted samples at each catchment outlet. Catchment 11 only has one surface outlet, and the monitoring station was named as Surface 11 (S11). Catchment 12 has one surface outlet and one tile outlet, and were named as Surface 12 (S12) and Tile 12 (T12), respectively. The combined load from S12 and T12 represented the total loading from catchment 12. <br>
 
 <kbd>
 <img src="https://github.com/jiyeow/jy_project/blob/master/BHL_watershed_map.png" height="400"> <br>
@@ -50,9 +44,9 @@ Fig 3: Project workflow
 
 
 ## Results and Discussions
-#### Comparison of nutrient and sediment concentrations and loads
+#### Comparison of nutrient and sediment concentrations
 
-Table 1: Median of analyte concentrations of base flow and event flow samples (2015-2018) at each catchment. The alphabet annotation represent the significant difference between base flow and event flow samples.
+Table 1: Median of analyte concentrations of base flow and event flow samples (2015-2018) at each catchment. The alphabet annotation represent the significant difference between base flow and event flow samples. <br>
 |Catchment  | Sample Type   | DRP    | TP     | TSS    | NOx    | TN     |
 | ---------:|--------------:| ------:| ------:| ------:| ------:| ------:|
 |11         | Base          | 0.003 b| 0.035 b| 15.8 b | 26.9 a | 29.0 a |
@@ -66,7 +60,7 @@ Highlights:
 - The median conecntrations of NOx and TN were similar in base and event flow samples at both catchments,
 - The minor differences were not significant. <br>
 
-Table 2: Median of analyte concentrations of base flow and event flow samples (2015-2018) at each catchment. The alphabet annotations represent the significant difference between catchments.
+Table 2: Median of analyte concentrations of base flow and event flow samples (2015-2018) at each catchment. The alphabet annotations represent the significant difference between catchments. <br>
 |Sample Type | Catchment | DRP    | TP     | TSS    | NOx    | TN     |
 | ---------- |:---------:| ------:| ------:| ------:| ------:| ------:|
 |Base        | 11        | 0.003 b| 0.035 a| 15.8 a | 26.9 a | 29.0 a |
@@ -83,8 +77,32 @@ Highlights:
 - DRP concentrations were not significantly different at both catchments.
 - TP, TSS, NOx, and TN concentrations were significantly higher at catchment 11 than at catchment 12.
  
- 
-Insert load comparison here (consider using a figure). <br>
+#### Comparison of nutrient and sediment loads 
+<kbd>
+<img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20DRP_load.png" height="250"> <br>
+Fig 4: Annual DRP load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
+</kbd>
+The DRP loads were consistently higher at catchment 12 than at catchment 11 between 2016 and 2018.
+
+<kbd>
+<img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20TP_load.png" height="250"> <br>
+Fig 5: Annual TP load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
+</kbd>
+
+<kbd>
+<img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20TSS_load.png" height="250"> <br>
+Fig 6: Annual TSS load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
+</kbd>
+
+<kbd>
+<img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20NOx_load.png" height="250"> <br>
+Fig 7: Annual NOx load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
+</kbd>
+
+<kbd>
+<img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20TN_load.png" height="250"> <br>
+Fig 8: Annual TN load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
+</kbd>
 
 #### Drivers for nutrient and sediment export
 Insert PCA analysis here (consider using a figure). <br>
