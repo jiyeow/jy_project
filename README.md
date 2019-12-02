@@ -56,6 +56,8 @@ In order for a user to reproduce the data analysis, the input data has to be org
 
 The main advantage of this program is that a large portion of the data analysis/organization process is automated. For example, the data will be automatically organized into the desired data format prior to data analysis (correlation test, load calculation, t-test). However, the data analysis options are only limited to those that are currently included in this program. Although manual visual inspection will be performed, manual modifications to the program will be needed if the dataset requires an alternate data analysis/organization option. This could be a disadvantage for future users who are not familiar with Python. The other disadvantage (more like future development) is that this program did not incorporate machine learning (I tried a few models but none worked for this dataset due to high sample variability and relatively small sample size). Therefore, a missing data will not be automatically filled with the "prediced value". <br>
 
+An example assignment with instructions from input to output can be found [here](https://github.com/jiyeow/jy_project/blob/master/Example_assignment.ipynb).
+
 <kbd>
 <img src="https://github.com/jiyeow/jy_project/blob/master/ABE516x_project_workflow.png" height="500"> <br>
 Fig 3: Project workflow
