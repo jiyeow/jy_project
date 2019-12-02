@@ -1,11 +1,17 @@
 # Table of Content
 <!--ts-->
-[Introduction](#introduction) <br>
-[Problem Statement](#problem-statement) <br>
-[Method and Approach](#method-and-approach) <br>
-[Results and Discussion](#results-and-discussion) <br>
-[Summary of Data Analysis](#summary-of-data-analysis) <br>
-[Supplemental Information](#supplemental-information) <br>
+* [Introduction](#introduction) <br>
+  * [Problem statement](#problem-statement) <br>
+* [Method and Approach](#method-and-approach) <br>
+  * [Monitoring sites and sample collection](#monitoring-sites-and-sample-collection) <br>
+  * [Sample and data analysis](#sample-and-data-analysis) <br>
+  * [Project workflow and reproducibility](#project-workflow-and-reproducibility) <br>
+* [Results and Discussion](#results-and-discussion) <br>
+  * [Comparison of nutrient and sediment concentrations](#comparison-of-nutrient-and-sediment-concentrations) <br>
+  * [Comparison of nutrient and sediment loads](#comparison-of-nutrient-and-sediment-loads) <br>
+  * [Correlation between nutrient/sediment and environmental parameters](#correlation-between-nutrientsediment-and-environmental-parameters) <br>
+* [Summary of Data Analysis](#summary-of-data-analysis) <br>
+* [Supplemental Information](#supplemental-information) <br>
 <!--te-->
 
 # Introduction
@@ -18,7 +24,7 @@ Iowa Nutrient Reduction Strategy document has highlighted that a single best man
 Fig 1: Aerial image of Black Hawk Lake (obtained from blackhawklake.org)
 </kbd> <br>
 
-#### Problem Statement
+#### Problem statement
 This 5-year water quality monitoring project requires that we provide a semi-annual updates of our monitoring results. Traditionally, new monitoring data was added into the existing dataset (or modification to existing dataset) and the same analyses were performed manually every six months. This repetitve process consumed a huge amount of time, which then led to the the motivation to automate the process. The goal of this project was to develop a consistent workflow (i.e. reproducibility) to analyze the nutrient/sediment data and the associated parameters (i.e. flow, weather). <br>
 
 The following program will allow any users with minimal python knowledge to analyze the datasets using a consistent method, in addition to saving time from analyzing each dataset manually every time a modification is made to the dataset. <br>
