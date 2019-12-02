@@ -203,36 +203,37 @@ Box plots of nutrient/sediment concentrations. <br>
 <kbd>
 <img src="Box%20plot%20ofDRP.png" height="250"> <br>
 Fig S1: DRP (mg/L) concentration at catchment 11 and 12 between 2015 and 2018.
-</kbd>
+</kbd> <br>
 
 <kbd>
 <img src="Box%20plot%20ofTP.png" height="250"> <br>
 Fig S2: TP (mg/L) concentration at catchment 11 and 12 between 2015 and 2018.
-</kbd>
+</kbd> <br>
 
 <kbd>
 <img src="Box%20plot%20ofTSS.png" height="250"> <br>
 Fig S3: TSS (mg/L) concentration at catchment 11 and 12 between 2015 and 2018.
-</kbd>
+</kbd> <br>
 
 <kbd>
 <img src="Box%20plot%20ofNOx.png" height="250"> <br>
 Fig S4: NOx (mg/L) concentration at catchment 11 and 12 between 2015 and 2018.
-</kbd>
+</kbd> <br>
 
 <kbd>
 <img src="Box%20plot%20ofTN.png" height="250"> <br>
 Fig S5: TN (mg/L) concentration at catchment 11 and 12 between 2015 and 2018.
 </kbd>
 <br>
+<br>
 Pairplot to visualize correlations <br>
 <kbd>
-<img src="corr_ppSub11.png" height="500"> <br>
+<img src="corr_ppSub11.png" height="800"> <br>
 Fig S6: Pairplot at catchment 11.
-</kbd>
+</kbd> <br>
 
 <kbd>
-<img src="corr_ppSub12.png" height="500"> <br>
+<img src="corr_ppSub12.png" height="800"> <br>
 Fig S7: Pairplot at catchment 12.
 </kbd>
 
