@@ -20,11 +20,6 @@ As the leading state of corn, soybean, and hog production in the United States, 
 Iowa Nutrient Reduction Strategy document has highlighted that a single best management practice (BMP) may not be sufficient to achieve the 45% N and P load reduction goal. However, several BMPs can combined in an agricultural field or catchment to improve the overall load reduction. This project was designed to compare the stacked benefits of BMPs at two adjacent agricultural catchments located in Black Hawk Lake watershed, Iowa. <br>
 
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/BHL_aerial_view.jpg" height="400"> <br>
-Fig 1: Aerial image of Black Hawk Lake (obtained from blackhawklake.org)
-</kbd> <br>
-
-<kbd>
 <img src="BHL_aerial_view.jpg" height="400"> <br>
 Fig 1: Aerial image of Black Hawk Lake (obtained from blackhawklake.org)
 </kbd> <br>
@@ -46,7 +41,7 @@ Additional data can be imported and additional analyses may be added in future d
 Two adjacent catchments, namely catchment 11 and 12, were monitored between 2015 and 2018. Catchment 11 has lower areal extend of BMPs implementation than catchment 12. ISCO automated water samplers were installed to collect continuous flow measurement data and to collected flow-weighted samples at each catchment outlet. Catchment 11 only has one surface outlet, and the monitoring station was named as Surface 11 (S11). Catchment 12 has one surface outlet and one tile outlet, and were named as Surface 12 (S12) and Tile 12 (T12), respectively. The combined load from S12 and T12 represented the total loading from catchment 12. <br>
 
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/BHL_watershed_map.png" height="400"> <br>
+<img src="BHL_watershed_map.png" height="400"> <br>
 Fig 2: Black Hawk Lake watershed. The lake is located on the north end of the watershed; the monitored catchments (cathcment 11 and 12) are highlighted in green. Side note: "catchment" is labelled as "sub" in this image.
 </kbd> 
 
@@ -64,7 +59,7 @@ The main advantage of this program is that a large portion of the data analysis/
 An example assignment with instructions from input to output can be found [here](https://github.com/jiyeow/jy_project/blob/master/Example_assignment.ipynb).
 
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/ABE516x_project_workflow.png" height="500"> <br>
+<img src="ABE516x_project_workflow.png" height="500"> <br>
 Fig 3: Project workflow
 </kbd>
 
@@ -106,31 +101,31 @@ Highlights:
  
 #### Comparison of nutrient and sediment loads 
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20DRP_load.png" height="250"> <br>
+<img src="Annual%20comparison%20of%20DRP_load.png" height="250"> <br>
 Fig 4: Annual DRP load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
 </kbd> <br>
 DRP loads were higher at catchment 11 than at catchment 12 during 2016 and 2017, but was lower during 2018.
 
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20TP_load.png" height="250"> <br>
+<img src="Annual%20comparison%20of%20TP_load.png" height="250"> <br>
 Fig 5: Annual TP load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
 </kbd> <br>
 TP loads were consistently higher at catchment 11 than at catchment 12 between 2016 and 2018.
 
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20TSS_load.png" height="250"> <br>
+<img src="Annual%20comparison%20of%20TSS_load.png" height="250"> <br>
 Fig 6: Annual TSS load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
 </kbd> <br>
 TSS loads were consistently higher at catchment 11 than at catchment 12 between 2016 and 2018.
 
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20NOx_load.png" height="250"> <br>
+<img src="Annual%20comparison%20of%20NOx_load.png" height="250"> <br>
 Fig 7: Annual NOx load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
 </kbd> <br>
 NOx loads were consistently higher at catchment 11 than at catchment 12 between 2016 and 2018.
 
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/Annual%20comparison%20of%20TN_load.png" height="250"> <br>
+<img src="Annual%20comparison%20of%20TN_load.png" height="250"> <br>
 Fig 8: Annual TN load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this image.
 </kbd> <br>
 TN loads were consistently higher at catchment 11 than at catchment 12 between 2016 and 2018.
@@ -208,38 +203,38 @@ Codes for weather data scrapping can be found [here](https://github.com/jiyeow/j
 
 Box plots of nutrient/sediment concentrations. <br>
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/Box%20plot%20ofDRP.png" height="250"> <br>
+<img src="Box%20plot%20ofDRP.png" height="250"> <br>
 Fig S1: DRP (mg/L) concentration at catchment 11 and 12 between 2015 and 2018.
 </kbd>
 
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/Box%20plot%20ofTP.png" height="250"> <br>
+<img src="Box%20plot%20ofTP.png" height="250"> <br>
 Fig S2: TP (mg/L) concentration at catchment 11 and 12 between 2015 and 2018.
 </kbd>
 
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/Box%20plot%20ofTSS.png" height="250"> <br>
+<img src="Box%20plot%20ofTSS.png" height="250"> <br>
 Fig S3: TSS (mg/L) concentration at catchment 11 and 12 between 2015 and 2018.
 </kbd>
 
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/Box%20plot%20ofNOx.png" height="250"> <br>
+<img src="Box%20plot%20ofNOx.png" height="250"> <br>
 Fig S4: NOx (mg/L) concentration at catchment 11 and 12 between 2015 and 2018.
 </kbd>
 
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/Box%20plot%20ofTN.png" height="250"> <br>
+<img src="Box%20plot%20ofTN.png" height="250"> <br>
 Fig S5: TN (mg/L) concentration at catchment 11 and 12 between 2015 and 2018.
 </kbd>
 <br>
 Pairplot to visualize correlations <br>
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/corr_ppSub11.png" height="250"> <br>
+<img src="corr_ppSub11.png" height="250"> <br>
 Fig S6: Pairplot at catchment 11.
 </kbd>
 
 <kbd>
-<img src="https://github.com/jiyeow/jy_project/blob/master/corr_ppSub12.png" height="250"> <br>
+<img src="corr_ppSub12.png" height="250"> <br>
 Fig S7: Pairplot at catchment 12.
 </kbd>
 
