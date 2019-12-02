@@ -1,3 +1,13 @@
+# Table of Content
+<!--ts-->
+[Introduction](#introduction) <br>
+[Problem Statement](#problem-statement) <br>
+[Method and Approach](#method-and-approach) <br>
+[Results and Discussion](#results-and-discussion) <br>
+[Summary of Data Analysis](#summary-of-data-analysis) <br>
+[Supplemental Information](#supplemental-information) <br>
+<!--te-->
+
 # Introduction
 As the leading state of corn, soybean, and hog production in the United States, Iowa also faces many water quality issues resulted from intensive agricultural activities, such as application of nitrogen and phosphorus fertilizers. Locally, nitrogen (N) loading into drinking water sources may result in higher water treatment costs, while phosphorus (P) loading may lead to eutrophication in freshwater systems (e.g. lake). At a larger scale, Iowa is estimated to account for 29% of the N loading into the Mississippi-Atchafalaya River Basin, which contributes to the formation of hypoxic zone in the Gulf of Mexico. <br>
 
@@ -45,7 +55,7 @@ The main advantage of this program is that a large portion of the data analysis/
 Fig 3: Project workflow
 </kbd>
 
-## Results and Discussions
+## Results and Discussion
 #### Comparison of nutrient and sediment concentrations
 
 Table 1: Median of analyte concentrations of base flow and event flow samples (2015-2018) at each catchment. The alphabet annotation represent the significant difference between base flow and event flow samples. <br>
@@ -163,7 +173,7 @@ Table 4: Correlation of nutrient/sediment concentration (separated by base and e
 
 Only consistent correlations were found between Flow and DRP, TP, and TSS concentrations for event samples.
 
-## Summary of data analysis
+## Summary of Data Analysis
 Key note:
 Catchment 11 has smaller aeral extent of BMPs implementation; catchment 12 has larger aereal extent of BMPs implementation.
 
@@ -179,7 +189,7 @@ Only flow rates showed consistent and significant correlations with DRP, TP, and
 The results and discussions can be updated when new data (i.e. new monitoring year) is added. Year-to-year comparison is available for certain data analysis, such as load calculation, box plot, and descriptive summary. Correlation test and significant test are not available for year-to-year comparison (although overall comparison will be updated), but this option can be added in the future.
 ##
 
-## Supplemental information
+## Supplemental Information
 Codes for all data analysis can be found [here](https://github.com/jiyeow/jy_project/blob/master/ABE516x_finalproject.ipynb) <br>
 Codes for weather data scrapping can be found [here](https://github.com/jiyeow/jy_project/blob/master/Weather_scrapping.ipynb) <br>
 
