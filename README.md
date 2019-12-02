@@ -1,17 +1,15 @@
 # Introduction
-General introduction of WQ issues. <br>
-As the leading state of corn, soybean, and hog production in the United States, Iowa also faces many water quality issues resulted from the intensive agricultural activities. Locally, nitrogen (N) loading into drinking water sources may result in higher water treatment costs, while phosphorus (P) loading may lead to eutrophication of freshwater systems. At a larger scale, Iowa is estimated to account for 29% of the nitrate loading into the Mississippi-Atchafalaya River Basin, which contributes to the formation of hypoxic zone in the Gulf of Mexico. 
+As the leading state of corn, soybean, and hog production in the United States, Iowa also faces many water quality issues resulted from intensive agricultural activities, such as application of nitrogen and phosphorus fertilizers. Locally, nitrogen (N) loading into drinking water sources may result in higher water treatment costs, while phosphorus (P) loading may lead to eutrophication in freshwater systems (e.g. lake). At a larger scale, Iowa is estimated to account for 29% of the N loading into the Mississippi-Atchafalaya River Basin, which contributes to the formation of hypoxic zone in the Gulf of Mexico. <br>
+
+Iowa Nutrient Reduction Strategy document has highlighted that a single best management practice (BMP) may not be sufficient to achieve the 45% N and P load reduction goal. However, several BMPs can combined in an agricultural field or catchment to improve the overall load reduction. This project was designed to compare the stacked benefits of BMPs at two adjacent agricultural catchments located in Black Hawk Lake watershed, Iowa. <br>
 
 <kbd>
 <img src="https://github.com/jiyeow/jy_project/blob/master/BHL_aerial_view.jpg" height="400"> <br>
 Fig 1: Aerial image of Black Hawk Lake (obtained from blackhawklake.org)
 </kbd> <br>
 
-Iowa Nutrient Reduction Strategy document has highlighted that a single best management practice (BMP) may not be sufficient to achieve the N and P 45% load reduction goal. Instead, several BMPs are needed to be combined in a single agricultural field or catchment. This project was designed to compare the stacked benefits of BMPs at two adjacent agricultural catchments located in Black Hawk Lake watershed, Iowa.
-
-
 #### Problem Statement
-Our project requires that we provide a semi-annual updates of our monitoring results. Traditionally, new monitoring data was added into the existing dataset (or modification to existing dataset) and the same analyses were performed manually every six months. This repetitve process consumed a huge amount of time, which then led to the the motivation to automate the process. The goal of this project was to develop a consistent workflow (i.e. reproducibility) to analyze the nutrient and sediment data and the associated parameters (i.e. flow, weather). <br>
+This 5-year water quality monitoring project requires that we provide a semi-annual updates of our monitoring results. Traditionally, new monitoring data was added into the existing dataset (or modification to existing dataset) and the same analyses were performed manually every six months. This repetitve process consumed a huge amount of time, which then led to the the motivation to automate the process. The goal of this project was to develop a consistent workflow (i.e. reproducibility) to analyze the nutrient/sediment data and the associated parameters (i.e. flow, weather). <br>
 
 The following program will allow any users with minimal python knowledge to analyze the datasets using a consistent method, in addition to saving time from analyzing each dataset manually every time a modification is made to the dataset. <br>
 
@@ -35,13 +33,17 @@ Fig 2: Black Hawk Lake watershed. The lake is located on the north end of the wa
 #### Sample and data analysis  
 The water samples were categorized into base flow samples and event (storm) flow samples. They were analyzed for NH3 (ammonia), NOx (nitrate+nitrite), TN (total nitrogen), DRP (dissolved reactive phosphorus), TP (total phosphorus), and TSS (total suspended solid) concentrations. Nutrient and sediment concentrations between two catchments were tested for significant differences. Normally distributed dataset was tested using t-test; non-normal dataset was tested using Wilcoxon Rank Sum test. In addition, correlations between nutrient/sediment concentration was tested for correlation with auxiliary parameter (flow, precip, temp). Normally distributed dataset was tested using pearsonr correlation; non-normal dataset was tested using spearmanr correlation test. Nutrient and sediment load at each catchment outlet was calculated by multiplying nutrient concentration and flow. Nutrient and sediment load between two catchments were also compared. <br>
 
-#### Project workflow
-This project workflow describes the analysis process used in the [Python Notebook](https://github.com/jiyeow/jy_project/blob/master/ABE516x_finalproject.ipynb)
+#### Project workflow and reproducibility
+This project workflow describes the analysis processes used in the [Python Notebook](https://github.com/jiyeow/jy_project/blob/master/ABE516x_finalproject.ipynb), which included both manual (black arrows) and automated (orange arrows) processes. Manual processes allowed users to visually inspect the data through scatter plots and data summary (i.e. mean, median, std dev) prior to the automated data analysis process.
+
+In order for a user to reproduce the data analysis, the input data has to be organized into the preset template. The required inputs are "Site", "Sample date", "Sample interval", "Sample type", "Flow (cms)", "DRP (mg P/L)", "TP (mg P/L)", "TSS (mg/L)", "Nitrate (mg/L)", "TN (mg/L)". All data analysis can be performed by simply running the entire program. Several steps will prompt user to input text (e.g. site selection), if desired; if not desired, the user may choose to skip the step.
+
+The main advantage of this program is that a large portion of the data analysis/organization process is automated. For example, the data will be automatically organized into the desired data format prior to data analysis (correlation test, load calculation, t-test). However, the data analysis options are only limited to those that are currently included in this program. Although manual visual inspection will be performed, manual modifications to the program will be needed if the dataset requires an alternate data analysis/organization option. This could be a disadvantage for future users who are not familiar with Python. <br>
+
 <kbd>
 <img src="https://github.com/jiyeow/jy_project/blob/master/ABE516x_project_workflow.png" height="500"> <br>
 Fig 3: Project workflow
 </kbd>
-
 
 ## Results and Discussions
 #### Comparison of nutrient and sediment concentrations
@@ -161,7 +163,7 @@ Table 4: Correlation of nutrient/sediment concentration (separated by base and e
 
 Only consistent correlations were found between Flow and DRP, TP, and TSS concentrations for event samples.
 
-## Summary of findings
+## Summary of data analysis
 Key note:
 Catchment 11 has smaller aeral extent of BMPs implementation; catchment 12 has larger aereal extent of BMPs implementation.
 
@@ -173,6 +175,8 @@ TP, TSS, NOx, and TN loads were consistenly higher in the catchment 11 during al
 
 c) How does environmental factor (flow, precipitation, and temperature) affect analyte concentration and load? <br>
 Only flow rates showed consistent and significant correlations with DRP, TP, and TSS concentrations of event samples.
+
+##
 
 ## Supplemental information
 Codes for all data analysis can be found [here](https://github.com/jiyeow/jy_project/blob/master/ABE516x_finalproject.ipynb) <br>
