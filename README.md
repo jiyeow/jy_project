@@ -176,6 +176,7 @@ TP, TSS, NOx, and TN loads were consistenly higher in the catchment 11 during al
 c) How does environmental factor (flow, precipitation, and temperature) affect analyte concentration and load? <br>
 Only flow rates showed consistent and significant correlations with DRP, TP, and TSS concentrations of event samples.
 
+The results and discussions can be updated when new data (i.e. new monitoring year) is added. Year-to-year comparison is available for certain data analysis, such as load calculation, box plot, and descriptive summary. Correlation test and significant test are not available for year-to-year comparison (although overall comparison will be updated), but this option can be added in the future.
 ##
 
 ## Supplemental information
