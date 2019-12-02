@@ -6,6 +6,7 @@
   * [Monitoring sites and sample collection](#monitoring-sites-and-sample-collection) <br>
   * [Sample and data analysis](#sample-and-data-analysis) <br>
   * [Project workflow and reproducibility](#project-workflow-and-reproducibility) <br>
+  * [Integration of class concepts and techniques](#integration-of-class-concepts-and-techniques) <br>
 * [Results and Discussion](#results-and-discussion) <br>
   * [Comparison of nutrient and sediment concentrations](#comparison-of-nutrient-and-sediment-concentrations) <br>
   * [Comparison of nutrient and sediment loads](#comparison-of-nutrient-and-sediment-loads) <br>
@@ -62,6 +63,9 @@ An example assignment with instructions from input to output can be found [here]
 <img src="ABE516x_project_workflow.png" height="500"> <br>
 Fig 3: Project workflow
 </kbd>
+
+#### Integration of class concepts and techniques
+One of the primary concepts that I have applied in this project was version control through github. This has allowed me to work on the project at different work stations by simply pulling the latest version through Gitbash. It also allowed me to track the changes that I have made over time. The other common technique in this program was using the loop (while, if, for) function to iterate through datasets, then perform additional data organization/analysis techniques. The data organization techniques include importing raw data (i.e. pd.read), slicing dataset (e.g. iloc), grouping subdatasets (e.g. groupby), and merging subdatasets (e.g. pd.merge). This allowed me to update all the "downstream" subdatasets by simply changing the raw input file. The analysis techniques that were used here were simple math functions (addition, multiplication), t-tests (or Wilcoxon), principal component analysis, and correlation analysis. I also have attempted to apply machine learning models (clustering, linear regression) to predict missing values but was not successful. More machine learning options should be tested in the future. Finally, text scrapping technique was also used to download weather data that was needed for the data analysis.
 
 ## Results and Discussion
 #### Comparison of nutrient and sediment concentrations
