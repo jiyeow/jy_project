@@ -24,6 +24,11 @@ Iowa Nutrient Reduction Strategy document has highlighted that a single best man
 Fig 1: Aerial image of Black Hawk Lake (obtained from blackhawklake.org)
 </kbd> <br>
 
+<kbd>
+<img src="BHL_aerial_view.jpg" height="400"> <br>
+Fig 1: Aerial image of Black Hawk Lake (obtained from blackhawklake.org)
+</kbd> <br>
+
 #### Problem statement
 This 5-year water quality monitoring project requires that we provide a semi-annual updates of our monitoring results. Traditionally, new monitoring data was added into the existing dataset (or modification to existing dataset) and the same analyses were performed manually every six months. This repetitve process consumed a huge amount of time, which then led to the the motivation to automate the process. The goal of this project was to develop a consistent workflow (i.e. reproducibility) to analyze the nutrient/sediment data and the associated parameters (i.e. flow, weather). <br>
 
