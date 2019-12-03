@@ -202,6 +202,7 @@ This summary showed the results of data analysis conducted using data between 20
 ## Supplemental Information
 Codes for all data analysis can be found [here](https://github.com/jiyeow/jy_project/blob/master/ABE516x_finalproject.ipynb) <br>
 Codes for weather data scrapping can be found [here](https://github.com/jiyeow/jy_project/blob/master/Weather_scrapping.ipynb) <br>
+All other files related to this project (e.g. raw input file) can be found [here](https://github.com/jiyeow/jy_project)
 
 Box plots of nutrient/sediment concentrations. <br>
 <kbd>
