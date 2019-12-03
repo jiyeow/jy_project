@@ -12,6 +12,7 @@
   * [Comparison of nutrient and sediment loads](#comparison-of-nutrient-and-sediment-loads) <br>
   * [Correlation between nutrient/sediment and environmental parameters](#correlation-between-nutrientsediment-and-environmental-parameters) <br>
 * [Summary of Data Analysis](#summary-of-data-analysis) <br>
+* [Class Exercise](#class-exercise) <br>
 * [Supplemental Information](#supplemental-information) <br>
 <!--te-->
 
@@ -56,8 +57,6 @@ The project workflow (Fig 3) describes the analysis processes used in the [Pytho
 In order for a user to reproduce the data analysis, the input data has to be organized into the preset template (see "BHL_data" worksheet). The required inputs are "Site", "Sample date", "Sample interval", "Sample type", "Flow (cms)", "DRP (mg P/L)", "TP (mg P/L)", "TSS (mg/L)", "Nitrate (mg/L)", "TN (mg/L)". As the program was written to loop through a "list_of_analytes", the user may choose to add additional analytes (in concentration format) into the last column of the template worksheet. Note that the user will also need to add the analyte name into the "list_of_analyte" in the program. All data analysis can be performed by simply running the entire program on Python 3 Notebook (or export the script as .py file, then run it in different platform). Several sections will prompt the user to input text (e.g. site selection), if desired; if not desired, the user may choose to skip the step. All main figures will be exported as png files; intermediate (i.e. for visual inspection of dataset prior to data analysis) figures will not be exported.
 
 The main advantage of this program is that a large portion of the data analysis/organization process is automated. For example, the data will be automatically organized into the desired data format prior to data analysis (correlation test, load calculation, t-test). However, the data analysis options are only limited to those that are currently included in this program. Although manual visual inspection will be performed, manual modifications to the program will be needed if the dataset requires an alternate data analysis/organization option. This could be a disadvantage for future users who are not familiar with Python. The other disadvantage (more like future development) is that this program did not incorporate machine learning (I tried a few models but none worked for this dataset due to high sample variability and relatively small sample size). Therefore, a missing data will not be automatically filled with the "prediced value". <br>
-
-An example assignment with instructions from input to output can be found [here](https://github.com/jiyeow/jy_project/blob/master/Example_assignment.ipynb).
 
 <kbd>
 <img src="ABE516x_project_workflow.png" height="500"> <br>
@@ -198,6 +197,9 @@ Only flow rates showed consistent and significant correlations with DRP, TP, and
 
 This summary showed the results of data analysis conducted using data between 2015 and 2018. The tables and figures above can be used in the semi-annual reports. The figures and test outputs will be produced automatically by simply adding new monitoring data into the template worksheet, then run the program. Year-to-year comparison is available for certain data analysis, such as load calculation, box plot, and descriptive summary. Correlation test and significant test are not available for year-to-year comparison (although overall comparison will be updated), but this option can be added in the future.
 ##
+
+## Class Exercise
+An example assignment with instructions can be found [here](https://github.com/jiyeow/jy_project/blob/master/Example_assignment.ipynb).
 
 ## Supplemental Information
 Codes for all data analysis can be found [here](https://github.com/jiyeow/jy_project/blob/master/ABE516x_finalproject.ipynb) <br>
