@@ -69,10 +69,10 @@ One of the primary concepts that I have applied in this project was version cont
 
 ## Results and Discussion
 #### Precipitation
-Precipitation is an important driver for nutrient and sediment transport from nonpoint sources. A year with greater precipitation depth (Fig. 4) resulted in higher nutrient and sediment loads (Figs 5-9).
+Precipitation is an important driver for nutrient and sediment transport from nonpoint sources. A year with greater precipitation depth (Fig. 4) resulted in higher nutrient and sediment loads (Figs 5-9). <br>
 
 <kbd>
-<img src="Cumulative_ppt.png" height="500"> <br>
+<img src="precipitation.png" height="500"> <br>
 Fig 4: Annual cumulative precipitation depths observed at Black Hawk Lake Watershed.
 </kbd>
 
