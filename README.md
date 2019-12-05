@@ -8,6 +8,7 @@
   * [Project workflow and reproducibility](#project-workflow-and-reproducibility) <br>
   * [Integration of class concepts and techniques](#integration-of-class-concepts-and-techniques) <br>
 * [Results and Discussion](#results-and-discussion) <br>
+  * [Precipitation](#precipitation) <br>
   * [Comparison of nutrient and sediment concentrations](#comparison-of-nutrient-and-sediment-concentrations) <br>
   * [Comparison of nutrient and sediment loads](#comparison-of-nutrient-and-sediment-loads) <br>
   * [Correlation between nutrient/sediment and environmental parameters](#correlation-between-nutrientsediment-and-environmental-parameters) <br>
@@ -67,6 +68,14 @@ Fig 3: Project workflow
 One of the primary concepts that I have applied in this project was version control through github. This has allowed me to work on the project at different work stations by simply pulling the latest version through Gitbash. It also allowed me to track the changes that I have made over time. The other common technique in this program was using the loop (while, if, for) function to iterate through datasets, then perform additional data organization/analysis techniques. The data organization techniques include importing raw data (i.e. pd.read), slicing dataset (e.g. iloc), grouping subdatasets (e.g. groupby), and merging subdatasets (e.g. pd.merge). This allowed me to update all the "downstream" subdatasets by simply changing the raw input file. The analysis techniques that were used here were simple math functions (addition, multiplication), t-tests (or Wilcoxon), principal component analysis, and correlation analysis. I also have attempted to apply machine learning models (clustering, linear regression) to predict missing values but was not successful. More machine learning options should be tested in the future. Finally, text scrapping technique was also used to download weather data that was needed for the data analysis.
 
 ## Results and Discussion
+#### Precipitation
+Precipitation is an important driver for nutrient and sediment transport from nonpoint sources. A year with greater precipitation depth (Fig. 4) resulted in higher nutrient and sediment loads (Figs 5-9).
+
+<kbd>
+<img src="Cumulative_ppt.png" height="500"> <br>
+Fig 4: Annual cumulative precipitation depths observed at Black Hawk Lake Watershed.
+</kbd>
+
 #### Comparison of nutrient and sediment concentrations
 
 Table 1: Median of analyte concentrations of base flow and event flow samples (2015-2018) at each catchment. The alphabet annotations represent the significant differences between base flow and event flow samples. <br>
@@ -103,31 +112,31 @@ Highlights: <br>
 #### Comparison of nutrient and sediment loads 
 <kbd>
 <img src="Annual%20comparison%20of%20DRP_load.png" height="250"> <br>
-Fig 4: Annual DRP load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this figure.
+Fig 5: Annual DRP load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this figure.
 </kbd> <br>
 DRP loads were higher at catchment 11 than at catchment 12 during 2016 and 2017, but was lower during 2018.
 
 <kbd>
 <img src="Annual%20comparison%20of%20TP_load.png" height="250"> <br>
-Fig 5: Annual TP load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this figure.
+Fig 6: Annual TP load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this figure.
 </kbd> <br>
 TP loads were consistently higher at catchment 11 than at catchment 12 between 2016 and 2018.
 
 <kbd>
 <img src="Annual%20comparison%20of%20TSS_load.png" height="250"> <br>
-Fig 6: Annual TSS load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this figure.
+Fig 7: Annual TSS load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this figure.
 </kbd> <br>
 TSS loads were consistently higher at catchment 11 than at catchment 12 between 2016 and 2018.
 
 <kbd>
 <img src="Annual%20comparison%20of%20NOx_load.png" height="250"> <br>
-Fig 7: Annual NOx load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this figure.
+Fig 8: Annual NOx load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this figure.
 </kbd> <br>
 NOx loads were consistently higher at catchment 11 than at catchment 12 between 2016 and 2018.
 
 <kbd>
 <img src="Annual%20comparison%20of%20TN_load.png" height="250"> <br>
-Fig 8: Annual TN load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this figure.
+Fig 9: Annual TN load at catchment 11 and 12. Side note: "catchment" is labelled as "sub" in this figure.
 </kbd> <br>
 TN loads were consistently higher at catchment 11 than at catchment 12 between 2016 and 2018.
 
@@ -145,7 +154,7 @@ There were 10 PCA outputs, and all showed similar trend. Therefore, only one exa
 
 <kbd>
 <img src="Sub12_DRP_PCA.PNG" height="250"> <br>
-Fig 9: Example PCA output. DRP data from catchment 12 was used in this analysis. More than 90% of the variance was explained by the environmental parameters.
+Fig 10: Example PCA output. DRP data from catchment 12 was used in this analysis. More than 90% of the variance was explained by the environmental parameters.
 </kbd>
 
 To prevent having a messy output table (2 catchments x 2 sample types x5 analytes x 5 environmental parameters = 100 correlation tests) and the difficulty to read through the ouputs, only significant correlations (p<0.05) are printed. The test ouputs are summarized in the Tables 3 and 4.
