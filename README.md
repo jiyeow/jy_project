@@ -208,7 +208,7 @@ This summary showed the results of data analysis conducted using data between 20
 ##
 
 ## Class Exercise
-An example assignment with instructions can be found [here](https://github.com/jiyeow/jy_project/blob/master/Example_assignment.ipynb).
+An example assignment with instructions can be found [here](https://github.com/jiyeow/jy_project/blob/master/Class_exercise.ipynb).
 
 ## Supplemental Information
 Codes for all data analysis can be found [here](https://github.com/jiyeow/jy_project/blob/master/ABE516x_finalproject.ipynb) <br>
