@@ -205,7 +205,6 @@ c) How did environmental factor (flow, precipitation, and temperature) affect an
 Only flow rates showed consistent and significant correlations with DRP, TP, and TSS concentrations of event samples.
 
 This summary showed the results of data analysis conducted using data between 2015 and 2018. The tables and figures above can be used in the semi-annual reports. The figures and test outputs will be produced automatically by simply adding new monitoring data into the template worksheet, then run the program. Year-to-year comparison is available for certain data analysis, such as load calculation, box plot, and descriptive summary. Correlation test and significant test are not available for year-to-year comparison (although overall comparison will be updated), but this option can be added in the future.
-##
 
 ## Class Exercise
 An example assignment with instructions can be found [here](https://github.com/jiyeow/jy_project/blob/master/Class_exercise.ipynb).
