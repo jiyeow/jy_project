@@ -193,7 +193,7 @@ Only consistent correlations were found between Flow and DRP, TP, and TSS concen
 
 ## Summary of Data Analysis
 Key note:
-Catchment 11 has smaller aeral extent of BMPs implementation; catchment 12 has larger aereal extent of BMPs implementation.
+Catchment 11 has smaller areal extent of BMPs implementation; catchment 12 has larger areal extent of BMPs implementation.
 
 a) Was analyte concentration higher in one catchment than the other? <br>
 Yes, significant differences were found in some of the analytes at these two catchments. Higher TP, TSS, NOx, and TN concentrations were found in catchment 11. However, DRP concentration appeared to be higher in catchment 12. <br>
